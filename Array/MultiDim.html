@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multi-Dimensional Array</title>
+        <script>
+            var arr=[
+                [1,2,3,4,5],
+                [10,20,30,40,50],
+                [11,22,33,44,55]
+            ];
+            document.write("<table border='1px' cellspacing='0'>");
+            for(var a=0;a<arr.length;a++)
+            {
+                document.write("<tr>");
+                for(var b=0;b<arr[a].length;b++)
+                {
+                    document.write("<td>"+arr[a][b]+"</td>");
+                }
+                document.write("</tr>");
+                document.write("<br>");
+            }
+            document.write("</table>")
+        </script>
+    </head>
+</html>

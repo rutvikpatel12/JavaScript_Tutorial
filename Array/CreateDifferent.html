@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create Different Array</title>
+        <script>
+            var arr=new Array();
+            /*arr[0]="Raj";
+            arr[1]=45;
+            arr[2]="Ramesh";
+            arr[3]=15;
+            arr[4]=47.36;
+            */
+
+            // get user value
+            for(var g=0;g<5;g++)
+            {
+                arr[g]=prompt("Enter the Value : ");
+            }
+
+            //document.write(arr);
+            document.write("<ul>");
+            for(var a=0;a<arr.length;a++)
+            {
+                document.write("<li>"+arr[a]+"</li>");
+            }
+            document.write("</ul>");
+
+        </script>
+    </head>
+</html>

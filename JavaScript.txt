@@ -1,0 +1,87 @@
+Q - Types of Comments
+    1. Single Line Comments
+        //
+    2. Multi Line Comments
+        /*  */
+
+Q - Types of Variables
+->  There are 3 Types of Variables
+    1.  var     ->  Same Variable name declare multiple times or value assign multiple times.
+    2.  let     ->  Same Variable name not declare multiple times or Value assign multiple times.
+    3.  const   ->  one time declare variable and assign the value after assign value for same variable for show error.
+
+Q - Different Type of Data-types in JavaScript
+    var x = "Hello World";              ---->   String
+    var x = 25;                         ---->   Number
+    var x = true;                       ---->   Boolean
+    var x = ["HTML","CSS","JS"]         ---->   Array
+    var x = {first:"Abc",last:"Xyz"};   ---->   Object
+    var x = null;                       ---->   null
+    var x;                              ---->   Undefined
+
+Q - Arithmetic Operators
+    +   Addition
+    -   Subtraction
+    *   Multiplication
+    /   Division
+    %   Modulus(Reminder)
+    **  Exponentiation
+    ++  Increment
+    --  Decrement
+
+Q - Assignment Operators
+    =       X=Y
+    +=      X=X+Y
+    -=      X=X-Y
+    *=      X=X*Y
+    /=      X=X/Y
+    %=      X=X%Y
+    **=     X=X**Y
+
+Q - Comparison Operators
+    ==      equal to
+    !=      not equal
+    >       greater than
+    <       less than
+    >=      greater than or equal to
+    <=      less than or equal to
+
+Q - Logical Operators
+    &&      AND
+    ||      OR
+    !       NOT
+
+Q - Multiple Events in JavaScript
+    1.  Click Event
+            Click (onclick)
+            Double Click (ondblclick)
+            Right Click (oncontextmenu)
+
+    2.  Mouse Event
+            Mouse Hover (onmouseenter)
+            Mouse Out (onmouseout)
+            Mouse Down (onmousedown)
+            Mouse Up (onmouseup)
+    
+    3.  Key-Press Event
+            Key Press (onkeypress)
+            Key Up (onkeyup)
+    
+    4.  Page Event
+            Load (onload)
+            Unload (onunload)
+            Resize (onresize)
+            Scroll (onscroll)
+
+Q - Types of Loops in JavaScript
+    1.  While loop
+    2.  do/while loop
+    3.  for loop
+    4.  for/in loop (Objects)
+    5.  forEach (Array)
+
+Q - JavaScript Array Methods
+    1.  sort()
+    2.  reverse()
+    3.  pop()
+    4.  push()

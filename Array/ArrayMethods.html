@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Array Methods</title>
+        <script>
+            var arr=[58,36,47,10,34,20];
+            document.write(arr+"<br>");
+
+            // Sort Array method
+            arr.sort();         
+            document.write(arr+"<br>");
+
+            // Reverse Array
+            arr.reverse();
+            document.write(arr+"<br>");
+
+            // pop method   --  Remove Element Last Index
+            arr.pop();
+            document.write(arr+"<br>");
+
+            // push Method  --  Add Element Last Index
+            arr.push("Rutvik");
+            document.write(arr+"<br>");
+
+            // Remove First Index
+            arr.shift();
+            document.write(arr+"<br>");
+
+            // Add Element First Index
+            arr.unshift("Kamani");
+            document.write(arr+"<br>");
+
+            // Array Concatination
+            var a=["Amit","Ankit","Rahul"];
+            var b=["Ramesh","Sagar"];
+            var c=a.concat(b);
+            document.write(c+"<br>");
+
+            // join method is remove (,) and add another value
+            var d=c.join(" - ");
+            document.write(d+"<br>");
+
+            // create new array for existing array
+            // slice(start,end)
+            var arr1=["Amit","Rajesh","Rahul","Sagar","Bhavesh","Rutvik"];
+            document.write(arr1+"<br>");
+
+            var b1=arr1.slice(1,4);     // Create New Array
+            document.write(b1+"<br>");
+
+            
+        </script>
+    </head>
+</html>

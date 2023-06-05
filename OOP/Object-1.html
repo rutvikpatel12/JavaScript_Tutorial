@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Object Program</title>
+        <script>
+            var a={
+                fname:"Rutvik",     // fname is Property
+                lname:"Kamani",
+                age:21,
+                email:"rutvikkamani28@gmail.com",
+                device:["Mobile","Laptop","TV"],     // Make Array for under the object
+                living:{
+                    city:"Rajkot",
+                    State:"Gujarat"
+                },
+                salary : function(){
+                    return 25000;
+                },
+                fullname : function()
+                {
+                    return this.fname + " " + this.lname;
+                }
+            }
+            console.log(a);
+            //document.write(a.fname);
+            //document.write(a.device[1]);    // Print Array
+            //document.write(a.salary());     //  Print Function
+            //document.write(a.fullname());     //  Print Function
+            document.write(a.living.city);  
+        </script>
+    </head>
+</html>
